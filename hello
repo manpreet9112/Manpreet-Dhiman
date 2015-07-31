@@ -1,0 +1,6 @@
+
+a=304;
+file1=fopen(' myfile.txt' , 'w');
+fprintf(file1, '%i' ,a);
+fclose(file1);
+

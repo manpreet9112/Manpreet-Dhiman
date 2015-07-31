@@ -1,0 +1,12 @@
+
+
+
+file1=fopen("sourcefile.txt", "r");
+f=fread(file1);
+file2=fopen("destfile.txt", "w");
+fprintf(file2 ,"%s" ,f);
+fclose(file1);
+fclose(file2);
+
+
+
