@@ -1,0 +1,23 @@
+\contentsline {section}{\numberline {1}Introduction to Organisation}{2}
+\contentsline {section}{\numberline {2}Introduction to LibreHatti}{3}
+\contentsline {subsection}{\numberline {2.1}Users of System}{3}
+\contentsline {subsection}{\numberline {2.2}Functional Requirements}{4}
+\contentsline {subsubsection}{\numberline {2.2.1}Input Requirements}{4}
+\contentsline {subsubsection}{\numberline {2.2.2}Output Requirements}{4}
+\contentsline {subsubsection}{\numberline {2.2.3}Software Requirements}{5}
+\contentsline {subsubsection}{\numberline {2.2.4}Hardware Requirements(Deploymentserver)}{5}
+\contentsline {subsubsection}{\numberline {2.2.5}Hardware Requirements(End User's PC)}{5}
+\contentsline {subsection}{\numberline {2.3}Non-Functional Requirements}{5}
+\contentsline {section}{\numberline {3}System Design}{6}
+\contentsline {subsection}{\numberline {3.1}Design Notations}{6}
+\contentsline {subsection}{\numberline {3.2}Data Flow Diagrams}{7}
+\contentsline {subsubsection}{\numberline {3.2.1}level 0}{7}
+\contentsline {subsubsection}{\numberline {3.2.2}level 1}{7}
+\contentsline {subsection}{\numberline {3.3}Database Design}{8}
+\contentsline {section}{\numberline {4}Methologies used }{8}
+\contentsline {subsection}{\numberline {4.1}EAV}{8}
+\contentsline {subsection}{\numberline {4.2}MVC}{9}
+\contentsline {subsection}{\numberline {4.3}MPTT}{10}
+\contentsline {subsection}{\numberline {4.4}Python}{10}
+\contentsline {subsection}{\numberline {4.5}Django}{10}
+\contentsline {section}{\numberline {5}Biblography}{11}
