@@ -1,7 +1,8 @@
+M=rand(4,4);
 
+dlmwrite("matrix.txt", M);
 
- A=[1 2 3 4 ; 4 7 7 4; 3 6 7 0]
- A
+ 
  
 
 

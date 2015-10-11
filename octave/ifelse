@@ -1,0 +1,13 @@
+marks=400;
+file1=fopen('destif.txt ', 'w');
+if(marks>700)
+{
+fprintf(file1, 'write marks %i \n',marks);
+}
+else
+{
+  
+ fprintf(file1, '%i \n',  'marks');
+}
+end;
+fclose(file1);

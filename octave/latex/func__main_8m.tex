@@ -1,0 +1,410 @@
+\section{/home/manpreet/\-O\-C\-T\-A\-V\-E\-\_\-\-W\-O\-R\-K/func\-\_\-main.m File Reference}
+\label{func__main_8m}\index{/home/manpreet/\-O\-C\-T\-A\-V\-E\-\_\-\-W\-O\-R\-K/func\-\_\-main.\-m@{/home/manpreet/\-O\-C\-T\-A\-V\-E\-\_\-\-W\-O\-R\-K/func\-\_\-main.\-m}}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\bf if} ({\bf storey\-\_\-i}$<$ Number\-\_\-of\-\_\-storeys) {\bf Stiffness\-\_\-matrix}({\bf storey\-\_\-i} = 1. + 15 $\ast$ time\-Prd
+\item 
+{\bf Stiffness\-\_\-matrix} ({\bf storey\-\_\-i}, {\bf storey\-\_\-i}+1)
+\item 
+{\bf Stiffness\-\_\-matrix} ({\bf storey\-\_\-i}+1, {\bf storey\-\_\-i})
+\item 
+{\bf if} ({\bf storey\-\_\-i} $>$1) {\bf Level\-\_\-floor}({\bf storey\-\_\-i}
+\item 
+end {\bf Modal\-\_\-participation\-\_\-factor} ({\bf index\-\_\-k}, 1)
+\item 
+{\bf Modal\-\_\-mass} ({\bf index\-\_\-k}, 1)
+\item 
+{\bf if} ({\bf Modes\-Contribution\-X} $>$ 90) break
+\item 
+endif end {\bf if} (Modes\-\_\-considered==0) Modes\-\_\-considered
+\item 
+{\bf A\-\_\-h} (index\-\_\-time, 1)
+\item 
+{\bf Peak\-\_\-shear\-\_\-force} ({\bf index\-\_\-i}, {\bf index\-\_\-j})
+\item 
+{\bf Storey\-\_\-shear\-\_\-force} ({\bf index\-\_\-i}, 2)
+\item 
+otherwise {\bf warning} ('Unexpected soil type')
+\item 
+{\bf elseif} (time\-Prd $>$ {\bf t3}) {\bf sag}
+\item 
+end end {\bf function} {\bf matrix\-Te\-X} ({\bf A}, fmt, align) disp(['\textbackslash{}section
+\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+{\bf clc} {\bf clear} load input mat {\bf function} {\bf Stiffness\-\_\-matrix}
+\item 
+{\bf storey\-\_\-i}
+\item 
+endif end end {\bf function} {\bf Level\-\_\-floor}
+\item 
+endif end end {\bf function} [Time\-\_\-period, Frequency, Time\-\_\-periods]
+\item 
+{\bf Omega} = sqrt(Omega\-\_\-square)
+\item 
+for {\bf index\-\_\-k}
+\item 
+{\bf sum\-\_\-\-W\-\_\-\-Phi2} = 0
+\item 
+for {\bf index\-\_\-i}
+\item 
+{\bf sum\-\_\-modal\-\_\-mass} = sum\-\_\-modal\-\_\-mass + {\bf Modal\-\_\-mass}({\bf index\-\_\-k},1)
+\item 
+end {\bf Modal\-\_\-contribution} = 100 / {\bf sum\-\_\-modal\-\_\-mass} $\ast$ {\bf Modal\-\_\-mass}
+\item 
+{\bf Modes\-Contribution\-X} = 0
+\item 
+{\bf Number\-\_\-of\-\_\-modes\-\_\-to\-\_\-be\-\_\-considered} = 0
+\item 
+end {\bf Peak\-\_\-shear\-\_\-force} = zeros(Number\-\_\-of\-\_\-storeys, Number\-\_\-of\-\_\-storeys,'double')
+\item 
+for {\bf index\-\_\-j}
+\item 
+{\bf index\-\_\-i} {\bf index\-\_\-j} {\bf index\-\_\-k} end \\*
+end end end {\bf function} {\bf Storey\-\_\-shear\-\_\-force} = storey\-\_\-shear({\bf Peak\-\_\-shear\-\_\-force},Modes\-\_\-considered,Number\-\_\-of\-\_\-storeys) Storey\-\_\-shear\-\_\-force = zeros(Number\-\_\-of\-\_\-storeys, 3)
+\item 
+for {\bf i}
+\item 
+end Function to write Matrix {\bf t1} = 0
+\item 
+{\bf t2} = 0
+\item 
+{\bf t3} = 0
+\item 
+{\bf t4} = 0
+\item 
+{\bf eq3num} = 0
+\item 
+{\bf function} {\bf sag}
+\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\index{func\-\_\-main.\-m@{func\-\_\-main.\-m}!A\-\_\-h@{A\-\_\-h}}
+\index{A\-\_\-h@{A\-\_\-h}!func_main.m@{func\-\_\-main.\-m}}
+\subsubsection[{A\-\_\-h}]{\setlength{\rightskip}{0pt plus 5cm}A\-\_\-h (
+\begin{DoxyParamCaption}
+\item[{index\-\_\-time}]{, }
+\item[{1}]{}
+\end{DoxyParamCaption}
+)}\label{func__main_8m_aaf04dac8ecc9d475ba966025eba2915f}
+\index{func\-\_\-main.\-m@{func\-\_\-main.\-m}!elseif@{elseif}}
+\index{elseif@{elseif}!func_main.m@{func\-\_\-main.\-m}}
+\subsubsection[{elseif}]{\setlength{\rightskip}{0pt plus 5cm}elseif (
+\begin{DoxyParamCaption}
+\item[{time\-Prd}]{, }
+\item[{{\bf t3}}]{}
+\end{DoxyParamCaption}
+)}\label{func__main_8m_a0d135864d9bc0103cbd903c62d64b088}
+\index{func\-\_\-main.\-m@{func\-\_\-main.\-m}!if@{if}}
+\index{if@{if}!func_main.m@{func\-\_\-main.\-m}}
+\subsubsection[{if}]{\setlength{\rightskip}{0pt plus 5cm}end if (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) = 1. + 15 $\ast$ time\-Prd}\label{func__main_8m_a07aafb5a4870a6777f2e28d7dc791b20}
+\index{func\-\_\-main.\-m@{func\-\_\-main.\-m}!if@{if}}
+\index{if@{if}!func_main.m@{func\-\_\-main.\-m}}
+\subsubsection[{if}]{\setlength{\rightskip}{0pt plus 5cm}if (
+\begin{DoxyParamCaption}
+\item[{{\bf storey\-\_\-i}}]{, }
+\item[{1}]{}
+\end{DoxyParamCaption}
+)}\label{func__main_8m_acae4743f53a057e86b2f94b495c656cb}
+\index{func\-\_\-main.\-m@{func\-\_\-main.\-m}!if@{if}}
+\index{if@{if}!func_main.m@{func\-\_\-main.\-m}}
+\subsubsection[{if}]{\setlength{\rightskip}{0pt plus 5cm}if (
+\begin{DoxyParamCaption}
+\item[{{\bf Modes\-Contribution\-X}}]{, }
+\item[{90}]{}
+\end{DoxyParamCaption}
+)}\label{func__main_8m_ae0824117b26ada50434e680632cec743}
+\index{func\-\_\-main.\-m@{func\-\_\-main.\-m}!if@{if}}
+\index{if@{if}!func_main.m@{func\-\_\-main.\-m}}
+\subsubsection[{if}]{\setlength{\rightskip}{0pt plus 5cm}endif end if (
+\begin{DoxyParamCaption}
+\item[{Modes\-\_\-considered}]{ = {\ttfamily =0}}
+\end{DoxyParamCaption}
+)}\label{func__main_8m_a02b22951c30ac7239b551ac8b5c6d61b}
+\index{func\-\_\-main.\-m@{func\-\_\-main.\-m}!matrix\-Te\-X@{matrix\-Te\-X}}
+\index{matrix\-Te\-X@{matrix\-Te\-X}!func_main.m@{func\-\_\-main.\-m}}
+\subsubsection[{matrix\-Te\-X}]{\setlength{\rightskip}{0pt plus 5cm}end end {\bf function} matrix\-Te\-X (
+\begin{DoxyParamCaption}
+\item[{{\bf A}}]{, }
+\item[{fmt}]{, }
+\item[{align}]{}
+\end{DoxyParamCaption}
+)}\label{func__main_8m_a8c0a4f44ca03289871d3743578e0412c}
+
+
+Definition at line 187 of file func\-\_\-main.\-m.
+
+\index{func\-\_\-main.\-m@{func\-\_\-main.\-m}!Modal\-\_\-mass@{Modal\-\_\-mass}}
+\index{Modal\-\_\-mass@{Modal\-\_\-mass}!func_main.m@{func\-\_\-main.\-m}}
+\subsubsection[{Modal\-\_\-mass}]{\setlength{\rightskip}{0pt plus 5cm}Modal\-\_\-mass (
+\begin{DoxyParamCaption}
+\item[{{\bf index\-\_\-k}}]{, }
+\item[{1}]{}
+\end{DoxyParamCaption}
+)}\label{func__main_8m_ad609d920246c497257e51a2ccd326daa}
+\index{func\-\_\-main.\-m@{func\-\_\-main.\-m}!Modal\-\_\-participation\-\_\-factor@{Modal\-\_\-participation\-\_\-factor}}
+\index{Modal\-\_\-participation\-\_\-factor@{Modal\-\_\-participation\-\_\-factor}!func_main.m@{func\-\_\-main.\-m}}
+\subsubsection[{Modal\-\_\-participation\-\_\-factor}]{\setlength{\rightskip}{0pt plus 5cm}end Modal\-\_\-participation\-\_\-factor (
+\begin{DoxyParamCaption}
+\item[{{\bf index\-\_\-k}}]{, }
+\item[{1}]{}
+\end{DoxyParamCaption}
+)}\label{func__main_8m_a6a39cdc1dba79cf42ebb7ed3e4084d6d}
+\index{func\-\_\-main.\-m@{func\-\_\-main.\-m}!Peak\-\_\-shear\-\_\-force@{Peak\-\_\-shear\-\_\-force}}
+\index{Peak\-\_\-shear\-\_\-force@{Peak\-\_\-shear\-\_\-force}!func_main.m@{func\-\_\-main.\-m}}
+\subsubsection[{Peak\-\_\-shear\-\_\-force}]{\setlength{\rightskip}{0pt plus 5cm}Peak\-\_\-shear\-\_\-force (
+\begin{DoxyParamCaption}
+\item[{{\bf index\-\_\-i}}]{, }
+\item[{{\bf index\-\_\-j}}]{}
+\end{DoxyParamCaption}
+)}\label{func__main_8m_aa89dfab357a9a8af4c25d866bdcde2fd}
+\index{func\-\_\-main.\-m@{func\-\_\-main.\-m}!Stiffness\-\_\-matrix@{Stiffness\-\_\-matrix}}
+\index{Stiffness\-\_\-matrix@{Stiffness\-\_\-matrix}!func_main.m@{func\-\_\-main.\-m}}
+\subsubsection[{Stiffness\-\_\-matrix}]{\setlength{\rightskip}{0pt plus 5cm}Stiffness\-\_\-matrix (
+\begin{DoxyParamCaption}
+\item[{{\bf storey\-\_\-i}}]{, }
+\item[{{\bf storey\-\_\-i}+}]{1}
+\end{DoxyParamCaption}
+)}\label{func__main_8m_a26af3adbbfead21d609d8cbbcae4d612}
+\index{func\-\_\-main.\-m@{func\-\_\-main.\-m}!Stiffness\-\_\-matrix@{Stiffness\-\_\-matrix}}
+\index{Stiffness\-\_\-matrix@{Stiffness\-\_\-matrix}!func_main.m@{func\-\_\-main.\-m}}
+\subsubsection[{Stiffness\-\_\-matrix}]{\setlength{\rightskip}{0pt plus 5cm}Stiffness\-\_\-matrix (
+\begin{DoxyParamCaption}
+\item[{{\bf storey\-\_\-i}+}]{1, }
+\item[{{\bf storey\-\_\-i}}]{}
+\end{DoxyParamCaption}
+)}\label{func__main_8m_a5a8cf1f19d11fd73f873c351fddb387e}
+\index{func\-\_\-main.\-m@{func\-\_\-main.\-m}!Storey\-\_\-shear\-\_\-force@{Storey\-\_\-shear\-\_\-force}}
+\index{Storey\-\_\-shear\-\_\-force@{Storey\-\_\-shear\-\_\-force}!func_main.m@{func\-\_\-main.\-m}}
+\subsubsection[{Storey\-\_\-shear\-\_\-force}]{\setlength{\rightskip}{0pt plus 5cm}Storey\-\_\-shear\-\_\-force (
+\begin{DoxyParamCaption}
+\item[{{\bf index\-\_\-i}}]{, }
+\item[{2}]{}
+\end{DoxyParamCaption}
+)}\label{func__main_8m_a344dd6648691b1d2d2c3383d7bf04277}
+\index{func\-\_\-main.\-m@{func\-\_\-main.\-m}!warning@{warning}}
+\index{warning@{warning}!func_main.m@{func\-\_\-main.\-m}}
+\subsubsection[{warning}]{\setlength{\rightskip}{0pt plus 5cm}otherwise warning (
+\begin{DoxyParamCaption}
+\item[{'Unexpected soil type'}]{}
+\end{DoxyParamCaption}
+)}\label{func__main_8m_ab503a94cad1959f242ec550d49261614}
+
+
+\subsection{Variable Documentation}
+\index{func\-\_\-main.\-m@{func\-\_\-main.\-m}!eq3num@{eq3num}}
+\index{eq3num@{eq3num}!func_main.m@{func\-\_\-main.\-m}}
+\subsubsection[{eq3num}]{\setlength{\rightskip}{0pt plus 5cm}eq3num = 0}\label{func__main_8m_a8ecbd124ddcdab7fc367443a82b241af}
+
+
+Definition at line 162 of file func\-\_\-main.\-m.
+
+\index{func\-\_\-main.\-m@{func\-\_\-main.\-m}!function@{function}}
+\index{function@{function}!func_main.m@{func\-\_\-main.\-m}}
+\subsubsection[{function}]{\setlength{\rightskip}{0pt plus 5cm}end end function}\label{func__main_8m_a3b7d315fa6e146442de88ccb3f470ea7}
+{\bfseries Initial value\-:}
+\begin{DoxyCode}
+= eigenomega(Stiffness_matrix, Mass,Number\_of\_storeys)
+[Eigen\_vector, Omega\_square] = eig(Stiffness_matrix, Mass)
+\end{DoxyCode}
+
+
+Definition at line 45 of file func\-\_\-main.\-m.
+
+\index{func\-\_\-main.\-m@{func\-\_\-main.\-m}!i@{i}}
+\index{i@{i}!func_main.m@{func\-\_\-main.\-m}}
+\subsubsection[{i}]{\setlength{\rightskip}{0pt plus 5cm}for i}\label{func__main_8m_a6f6ccfcf58b31cb6412107d9d5281426}
+{\bfseries Initial value\-:}
+\begin{DoxyCode}
+= 1:Soil\_type
+ Type_of_soil = strcat(Type_of_soil, \textcolor{charliteral}{'I'})
+\end{DoxyCode}
+
+
+Definition at line 155 of file func\-\_\-main.\-m.
+
+\index{func\-\_\-main.\-m@{func\-\_\-main.\-m}!index\-\_\-i@{index\-\_\-i}}
+\index{index\-\_\-i@{index\-\_\-i}!func_main.m@{func\-\_\-main.\-m}}
+\subsubsection[{index\-\_\-i}]{\setlength{\rightskip}{0pt plus 5cm}for index\-\_\-i}\label{func__main_8m_ac6e21a32e1cf6d0626600bb610d05c93}
+{\bfseries Initial value\-:}
+\begin{DoxyCode}
+= 1 : Number\_of\_storeys
+                                sum\_W\_Phi = sum\_W\_Phi + Mass(index_i, index_i) * ...
+                                Eigen\_vector(index_i, index_k)
+\end{DoxyCode}
+
+
+Definition at line 65 of file func\-\_\-main.\-m.
+
+\index{func\-\_\-main.\-m@{func\-\_\-main.\-m}!index\-\_\-j@{index\-\_\-j}}
+\index{index\-\_\-j@{index\-\_\-j}!func_main.m@{func\-\_\-main.\-m}}
+\subsubsection[{index\-\_\-j}]{\setlength{\rightskip}{0pt plus 5cm}for index\-\_\-j}\label{func__main_8m_a9d105c6932d303e9e7a82b49e9bc876a}
+{\bfseries Initial value\-:}
+\begin{DoxyCode}
+= 1:Number\_of\_storeys
+                \textcolor{keywordflow}{for} index_i = 1:Number\_of\_storeys
+                        \textcolor{keywordflow}{for} index_k = 1:Number\_of\_storeys - index_i +1
+                        % index\_m = index_k + index_i -1
+\end{DoxyCode}
+
+
+Definition at line 111 of file func\-\_\-main.\-m.
+
+\index{func\-\_\-main.\-m@{func\-\_\-main.\-m}!index\-\_\-k@{index\-\_\-k}}
+\index{index\-\_\-k@{index\-\_\-k}!func_main.m@{func\-\_\-main.\-m}}
+\subsubsection[{index\-\_\-k}]{\setlength{\rightskip}{0pt plus 5cm}for index\-\_\-k}\label{func__main_8m_aeb7138595dee788b60a4aab95ea30ead}
+{\bfseries Initial value\-:}
+\begin{DoxyCode}
+= 1 : Number\_of\_storeys
+                sum\_W\_Phi = 0
+\end{DoxyCode}
+
+
+Definition at line 62 of file func\-\_\-main.\-m.
+
+\index{func\-\_\-main.\-m@{func\-\_\-main.\-m}!Level\-\_\-floor@{Level\-\_\-floor}}
+\index{Level\-\_\-floor@{Level\-\_\-floor}!func_main.m@{func\-\_\-main.\-m}}
+\subsubsection[{Level\-\_\-floor}]{\setlength{\rightskip}{0pt plus 5cm}endif end end {\bf function} Level\-\_\-floor}\label{func__main_8m_afbcb7c65e7756ba8ad0c8011e8b9ec84}
+{\bfseries Initial value\-:}
+\begin{DoxyCode}
+=levelf(Height\_storey)
+        Number\_of\_storeys=4
+\end{DoxyCode}
+
+
+Definition at line 32 of file func\-\_\-main.\-m.
+
+\index{func\-\_\-main.\-m@{func\-\_\-main.\-m}!Modal\-\_\-contribution@{Modal\-\_\-contribution}}
+\index{Modal\-\_\-contribution@{Modal\-\_\-contribution}!func_main.m@{func\-\_\-main.\-m}}
+\subsubsection[{Modal\-\_\-contribution}]{\setlength{\rightskip}{0pt plus 5cm}end Modal\-\_\-contribution = 100 / {\bf sum\-\_\-modal\-\_\-mass} $\ast$ {\bf Modal\-\_\-mass}}\label{func__main_8m_afc15fafadb4f9b24ca3f82f6b72bafcf}
+
+
+Definition at line 76 of file func\-\_\-main.\-m.
+
+\index{func\-\_\-main.\-m@{func\-\_\-main.\-m}!Modes\-Contribution\-X@{Modes\-Contribution\-X}}
+\index{Modes\-Contribution\-X@{Modes\-Contribution\-X}!func_main.m@{func\-\_\-main.\-m}}
+\subsubsection[{Modes\-Contribution\-X}]{\setlength{\rightskip}{0pt plus 5cm}Modes\-Contribution\-X = 0}\label{func__main_8m_a55f0e7d483cc95c31ab81c9bdcbed944}
+
+
+Definition at line 78 of file func\-\_\-main.\-m.
+
+\index{func\-\_\-main.\-m@{func\-\_\-main.\-m}!Number\-\_\-of\-\_\-modes\-\_\-to\-\_\-be\-\_\-considered@{Number\-\_\-of\-\_\-modes\-\_\-to\-\_\-be\-\_\-considered}}
+\index{Number\-\_\-of\-\_\-modes\-\_\-to\-\_\-be\-\_\-considered@{Number\-\_\-of\-\_\-modes\-\_\-to\-\_\-be\-\_\-considered}!func_main.m@{func\-\_\-main.\-m}}
+\subsubsection[{Number\-\_\-of\-\_\-modes\-\_\-to\-\_\-be\-\_\-considered}]{\setlength{\rightskip}{0pt plus 5cm}for Number\-\_\-of\-\_\-modes\-\_\-to\-\_\-be\-\_\-considered = 0}\label{func__main_8m_a1034ee45b0411e5b452175e522e6e87a}
+
+
+Definition at line 79 of file func\-\_\-main.\-m.
+
+\index{func\-\_\-main.\-m@{func\-\_\-main.\-m}!Omega@{Omega}}
+\index{Omega@{Omega}!func_main.m@{func\-\_\-main.\-m}}
+\subsubsection[{Omega}]{\setlength{\rightskip}{0pt plus 5cm}Omega = sqrt(Omega\-\_\-square)}\label{func__main_8m_abd44e0f647c914787c461677b6933451}
+
+
+Definition at line 47 of file func\-\_\-main.\-m.
+
+\index{func\-\_\-main.\-m@{func\-\_\-main.\-m}!Peak\-\_\-shear\-\_\-force@{Peak\-\_\-shear\-\_\-force}}
+\index{Peak\-\_\-shear\-\_\-force@{Peak\-\_\-shear\-\_\-force}!func_main.m@{func\-\_\-main.\-m}}
+\subsubsection[{Peak\-\_\-shear\-\_\-force}]{\setlength{\rightskip}{0pt plus 5cm}end Peak\-\_\-shear\-\_\-force = zeros(Number\-\_\-of\-\_\-storeys, Number\-\_\-of\-\_\-storeys,'double')}\label{func__main_8m_a5bf27342fe06cf8dc956564530a388ea}
+
+
+Definition at line 110 of file func\-\_\-main.\-m.
+
+\index{func\-\_\-main.\-m@{func\-\_\-main.\-m}!sag@{sag}}
+\index{sag@{sag}!func_main.m@{func\-\_\-main.\-m}}
+\subsubsection[{sag}]{\setlength{\rightskip}{0pt plus 5cm}else sag}\label{func__main_8m_aac9abc95cd2ddc27fa84fb4440b62888}
+{\bfseries Initial value\-:}
+\begin{DoxyCode}
+= funSaog(soilType, timePrd)
+    t2=0.10
+\end{DoxyCode}
+
+
+Definition at line 165 of file func\-\_\-main.\-m.
+
+\index{func\-\_\-main.\-m@{func\-\_\-main.\-m}!Stiffness\-\_\-matrix@{Stiffness\-\_\-matrix}}
+\index{Stiffness\-\_\-matrix@{Stiffness\-\_\-matrix}!func_main.m@{func\-\_\-main.\-m}}
+\subsubsection[{Stiffness\-\_\-matrix}]{\setlength{\rightskip}{0pt plus 5cm}{\bf clc} {\bf clear} load input mat {\bf function} Stiffness\-\_\-matrix}\label{func__main_8m_a70c56f90084642dd078d3a85e443f00f}
+{\bfseries Initial value\-:}
+\begin{DoxyCode}
+=stif(Stiffness\_storey,Number\_of\_storeys)
+
+
+
+                for  storey_i = 1:Number\_of\_storeys
+
+                        Stiffness_matrix(storey_i, storey\_i) = ...
+                        Stiffness\_storey(storey\_i)
+\end{DoxyCode}
+
+
+Definition at line 10 of file func\-\_\-main.\-m.
+
+\index{func\-\_\-main.\-m@{func\-\_\-main.\-m}!storey\-\_\-i@{storey\-\_\-i}}
+\index{storey\-\_\-i@{storey\-\_\-i}!func_main.m@{func\-\_\-main.\-m}}
+\subsubsection[{storey\-\_\-i}]{\setlength{\rightskip}{0pt plus 5cm}end for storey\-\_\-i}\label{func__main_8m_a6f92001683fd75ef72b08797cda8d28e}
+{\bfseries Initial value\-:}
+\begin{DoxyCode}
+= ...
+                                Stiffness_matrix(storey_i, storey_i) + ...
+                                Stiffness\_storey(storey_i + 1)
+\end{DoxyCode}
+
+
+Definition at line 20 of file func\-\_\-main.\-m.
+
+\index{func\-\_\-main.\-m@{func\-\_\-main.\-m}!Storey\-\_\-shear\-\_\-force@{Storey\-\_\-shear\-\_\-force}}
+\index{Storey\-\_\-shear\-\_\-force@{Storey\-\_\-shear\-\_\-force}!func_main.m@{func\-\_\-main.\-m}}
+\subsubsection[{Storey\-\_\-shear\-\_\-force}]{\setlength{\rightskip}{0pt plus 5cm}end Storey\-\_\-shear\-\_\-force = storey\-\_\-shear({\bf Peak\-\_\-shear\-\_\-force},Modes\-\_\-considered,Number\-\_\-of\-\_\-storeys) Storey\-\_\-shear\-\_\-force = zeros(Number\-\_\-of\-\_\-storeys, 3)}\label{func__main_8m_a134fef5d3009a6da1f3b70334b85bc3e}
+
+
+Definition at line 127 of file func\-\_\-main.\-m.
+
+\index{func\-\_\-main.\-m@{func\-\_\-main.\-m}!sum\-\_\-modal\-\_\-mass@{sum\-\_\-modal\-\_\-mass}}
+\index{sum\-\_\-modal\-\_\-mass@{sum\-\_\-modal\-\_\-mass}!func_main.m@{func\-\_\-main.\-m}}
+\subsubsection[{sum\-\_\-modal\-\_\-mass}]{\setlength{\rightskip}{0pt plus 5cm}sum\-\_\-modal\-\_\-mass = sum\-\_\-modal\-\_\-mass + {\bf Modal\-\_\-mass}({\bf index\-\_\-k},1)}\label{func__main_8m_afe41102d21582a0644f2bb7795f858dd}
+
+
+Definition at line 73 of file func\-\_\-main.\-m.
+
+\index{func\-\_\-main.\-m@{func\-\_\-main.\-m}!sum\-\_\-\-W\-\_\-\-Phi2@{sum\-\_\-\-W\-\_\-\-Phi2}}
+\index{sum\-\_\-\-W\-\_\-\-Phi2@{sum\-\_\-\-W\-\_\-\-Phi2}!func_main.m@{func\-\_\-main.\-m}}
+\subsubsection[{sum\-\_\-\-W\-\_\-\-Phi2}]{\setlength{\rightskip}{0pt plus 5cm}sum\-\_\-\-W\-\_\-\-Phi2 = 0}\label{func__main_8m_ab396194af7ea5f2a640654cd83b07e1f}
+
+
+Definition at line 64 of file func\-\_\-main.\-m.
+
+\index{func\-\_\-main.\-m@{func\-\_\-main.\-m}!t1@{t1}}
+\index{t1@{t1}!func_main.m@{func\-\_\-main.\-m}}
+\subsubsection[{t1}]{\setlength{\rightskip}{0pt plus 5cm}t1 = 0}\label{func__main_8m_a469994e78f66a44815c015b7f4b8b2f8}
+
+
+Definition at line 161 of file func\-\_\-main.\-m.
+
+\index{func\-\_\-main.\-m@{func\-\_\-main.\-m}!t2@{t2}}
+\index{t2@{t2}!func_main.m@{func\-\_\-main.\-m}}
+\subsubsection[{t2}]{\setlength{\rightskip}{0pt plus 5cm}t2 = 0}\label{func__main_8m_a24aeadb733f27244ec14e4cba82eeee9}
+
+
+Definition at line 161 of file func\-\_\-main.\-m.
+
+\index{func\-\_\-main.\-m@{func\-\_\-main.\-m}!t3@{t3}}
+\index{t3@{t3}!func_main.m@{func\-\_\-main.\-m}}
+\subsubsection[{t3}]{\setlength{\rightskip}{0pt plus 5cm}case I\-I\-I t3 = 0}\label{func__main_8m_a80d62394ff82e3ae283e9113bca340a2}
+
+
+Definition at line 161 of file func\-\_\-main.\-m.
+
+\index{func\-\_\-main.\-m@{func\-\_\-main.\-m}!t4@{t4}}
+\index{t4@{t4}!func_main.m@{func\-\_\-main.\-m}}
+\subsubsection[{t4}]{\setlength{\rightskip}{0pt plus 5cm}t4 = 0}\label{func__main_8m_ae95ab11d59379638967673bd74654b2a}
+
+
+Definition at line 161 of file func\-\_\-main.\-m.
+

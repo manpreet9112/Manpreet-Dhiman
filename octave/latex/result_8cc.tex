@@ -1,0 +1,57 @@
+\section{/home/manpreet/\-O\-C\-T\-A\-V\-E\-\_\-\-W\-O\-R\-K/result.cc File Reference}
+\label{result_8cc}\index{/home/manpreet/\-O\-C\-T\-A\-V\-E\-\_\-\-W\-O\-R\-K/result.\-cc@{/home/manpreet/\-O\-C\-T\-A\-V\-E\-\_\-\-W\-O\-R\-K/result.\-cc}}
+{\ttfamily \#include $<$iostream$>$}\\*
+Include dependency graph for result.\-cc\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=174pt]{result_8cc__incl}
+\end{center}
+\end{figure}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int {\bf main} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\index{result.\-cc@{result.\-cc}!main@{main}}
+\index{main@{main}!result.cc@{result.\-cc}}
+\subsubsection[{main}]{\setlength{\rightskip}{0pt plus 5cm}int main (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{result_8cc_ae66f6b31b5ad750f1fe042a706a4e3d4}
+
+
+Definition at line 3 of file result.\-cc.
+
+
+\begin{DoxyCode}
+4 \{
+5 \textcolor{keywordtype}{int} accno,choice,c,damt,wamt,bal, cur\_bal;
+6 cout<<\textcolor{stringliteral}{"enter your account number and current balance\(\backslash\)n"};
+7 cin>>accno>>bal;
+8 cout<<\textcolor{stringliteral}{"press 1 for deposit\(\backslash\)n"};
+9 cout<<\textcolor{stringliteral}{"press 2 for withdraw"};
+10 cin>>c;
+11 \textcolor{keywordflow}{switch}(c)
+12 \{
+13 \textcolor{keywordflow}{case} 1:
+14  cout<<\textcolor{stringliteral}{"enter amount  that you want to deposit\(\backslash\)n"};
+15  cin>>damt;
+16  cur\_bal=bal+damt;
+17 cout<<\textcolor{stringliteral}{" your current balance after deposit is="}<< cur\_bal;
+18  \textcolor{keywordflow}{break};
+19 
+20 \textcolor{keywordflow}{case} 2:
+21  cout<<\textcolor{stringliteral}{"enter amount that you want to withdraw\(\backslash\)n"};
+22  cin>>wamt;
+23  cur\_bal=bal-wamt;
+24  cout<<\textcolor{stringliteral}{" Balance after deduction is ="}<< wamt<<\textcolor{stringliteral}{"\(\backslash\)n"};
+25  \textcolor{keywordflow}{break};
+26 cout<<\textcolor{stringliteral}{"\(\backslash\)n"};
+27 \}
+28 \}
+\end{DoxyCode}

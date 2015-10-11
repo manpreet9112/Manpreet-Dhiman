@@ -1,0 +1,51 @@
+\section{/home/manpreet/\-O\-C\-T\-A\-V\-E\-\_\-\-W\-O\-R\-K/octcgi.cc File Reference}
+\label{octcgi_8cc}\index{/home/manpreet/\-O\-C\-T\-A\-V\-E\-\_\-\-W\-O\-R\-K/octcgi.\-cc@{/home/manpreet/\-O\-C\-T\-A\-V\-E\-\_\-\-W\-O\-R\-K/octcgi.\-cc}}
+{\ttfamily \#include $<$iostream$>$}\\*
+{\ttfamily \#include $<$octave/oct.\-h$>$}\\*
+Include dependency graph for octcgi.\-cc\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=187pt]{octcgi_8cc__incl}
+\end{center}
+\end{figure}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int {\bf main} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\index{octcgi.\-cc@{octcgi.\-cc}!main@{main}}
+\index{main@{main}!octcgi.cc@{octcgi.\-cc}}
+\subsubsection[{main}]{\setlength{\rightskip}{0pt plus 5cm}int main (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{octcgi_8cc_ae66f6b31b5ad750f1fe042a706a4e3d4}
+
+
+Definition at line 4 of file octcgi.\-cc.
+
+
+
+References i.
+
+
+\begin{DoxyCode}
+5 \{
+6   std::cout << \textcolor{stringliteral}{"Hello Octave world!\(\backslash\)n"};
+7 
+8   \textcolor{keywordtype}{int} n = 2;
+9   Matrix a\_matrix = Matrix (n, n);
+10 
+11   \textcolor{keywordflow}{for} (octave\_idx\_type i = 0; i < n; i++)
+12     \textcolor{keywordflow}{for} (octave\_idx\_type j = 0; j < n; j++)
+13       a\_matrix(i,j) = (i + 1) * 10 + (j + 1);
+14 
+15   std::cout << a\_matrix;
+16 
+17   \textcolor{keywordflow}{return} 0;
+18 \}
+\end{DoxyCode}

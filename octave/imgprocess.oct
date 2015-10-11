@@ -1,0 +1,8 @@
+
+
+
+img=imread("/home/manpreet/Desktop/bird.jpg");
+imshow(img);
+
+
+  

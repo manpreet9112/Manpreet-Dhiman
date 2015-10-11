@@ -1,0 +1,137 @@
+\section{/home/manpreet/\-O\-C\-T\-A\-V\-E\-\_\-\-W\-O\-R\-K/civil.m File Reference}
+\label{civil_8m}\index{/home/manpreet/\-O\-C\-T\-A\-V\-E\-\_\-\-W\-O\-R\-K/civil.\-m@{/home/manpreet/\-O\-C\-T\-A\-V\-E\-\_\-\-W\-O\-R\-K/civil.\-m}}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+otherwise {\bf warning} ('Unexpected soil type') end {\bf if}(time\-Prd$<$ {\bf t2}) {\bf sag}
+\item 
+{\bf elseif} (time\-Prd $>$ {\bf t3}) {\bf sag}
+\item 
+end end {\bf function} {\bf matrix\-Te\-X} ({\bf A}, fmt, align) disp(['\textbackslash{}section
+\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+calculate global stiffness \\*
+matrix {\bf clc} {\bf clear} load input \\*
+mat Soil\-\_\-type {\bf Type\-\_\-of\-\_\-soil} = ''
+\item 
+for {\bf i}
+\item 
+end {\bf Type\-\_\-of\-\_\-soil} Function to \\*
+write Matrix {\bf t1} = 0
+\item 
+{\bf t2} = 0
+\item 
+{\bf t3} = 0
+\item 
+{\bf t4} = 0
+\item 
+{\bf eq3num} = 0
+\item 
+{\bf function} {\bf sag}
+\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\index{civil.\-m@{civil.\-m}!elseif@{elseif}}
+\index{elseif@{elseif}!civil.m@{civil.\-m}}
+\subsubsection[{elseif}]{\setlength{\rightskip}{0pt plus 5cm}elseif (
+\begin{DoxyParamCaption}
+\item[{time\-Prd}]{, }
+\item[{{\bf t3}}]{}
+\end{DoxyParamCaption}
+)}\label{civil_8m_a0d135864d9bc0103cbd903c62d64b088}
+\index{civil.\-m@{civil.\-m}!matrix\-Te\-X@{matrix\-Te\-X}}
+\index{matrix\-Te\-X@{matrix\-Te\-X}!civil.m@{civil.\-m}}
+\subsubsection[{matrix\-Te\-X}]{\setlength{\rightskip}{0pt plus 5cm}end end {\bf function} matrix\-Te\-X (
+\begin{DoxyParamCaption}
+\item[{{\bf A}}]{, }
+\item[{fmt}]{, }
+\item[{align}]{}
+\end{DoxyParamCaption}
+)}\label{civil_8m_a8c0a4f44ca03289871d3743578e0412c}
+
+
+Definition at line 43 of file civil.\-m.
+
+\index{civil.\-m@{civil.\-m}!warning@{warning}}
+\index{warning@{warning}!civil.m@{civil.\-m}}
+\subsubsection[{warning}]{\setlength{\rightskip}{0pt plus 5cm}otherwise warning (
+\begin{DoxyParamCaption}
+\item[{'Unexpected soil type'}]{}
+\end{DoxyParamCaption}
+)}\label{civil_8m_a29249d852e6e3fd1e206e1f920300e24}
+
+
+\subsection{Variable Documentation}
+\index{civil.\-m@{civil.\-m}!eq3num@{eq3num}}
+\index{eq3num@{eq3num}!civil.m@{civil.\-m}}
+\subsubsection[{eq3num}]{\setlength{\rightskip}{0pt plus 5cm}eq3num = 0}\label{civil_8m_a8ecbd124ddcdab7fc367443a82b241af}
+
+
+Definition at line 20 of file civil.\-m.
+
+\index{civil.\-m@{civil.\-m}!i@{i}}
+\index{i@{i}!civil.m@{civil.\-m}}
+\subsubsection[{i}]{\setlength{\rightskip}{0pt plus 5cm}for i}\label{civil_8m_a6f6ccfcf58b31cb6412107d9d5281426}
+{\bfseries Initial value\-:}
+\begin{DoxyCode}
+= 1:Soil\_type
+  Type_of_soil = strcat(Type_of_soil, \textcolor{charliteral}{'I'})
+\end{DoxyCode}
+
+
+Definition at line 11 of file civil.\-m.
+
+
+
+Referenced by main().
+
+\index{civil.\-m@{civil.\-m}!sag@{sag}}
+\index{sag@{sag}!civil.m@{civil.\-m}}
+\subsubsection[{sag}]{\setlength{\rightskip}{0pt plus 5cm}else sag}\label{civil_8m_aac9abc95cd2ddc27fa84fb4440b62888}
+{\bfseries Initial value\-:}
+\begin{DoxyCode}
+= funSaog(soilType, timePrd)
+  t2 = 0.10
+\end{DoxyCode}
+
+
+Definition at line 22 of file civil.\-m.
+
+\index{civil.\-m@{civil.\-m}!t1@{t1}}
+\index{t1@{t1}!civil.m@{civil.\-m}}
+\subsubsection[{t1}]{\setlength{\rightskip}{0pt plus 5cm}end {\bf Type\-\_\-of\-\_\-soil} Function to write Matrix t1 = 0}\label{civil_8m_a3a318718cf4c9c1380475d059171d8f3}
+
+
+Definition at line 19 of file civil.\-m.
+
+\index{civil.\-m@{civil.\-m}!t2@{t2}}
+\index{t2@{t2}!civil.m@{civil.\-m}}
+\subsubsection[{t2}]{\setlength{\rightskip}{0pt plus 5cm}t2 = 0}\label{civil_8m_a24aeadb733f27244ec14e4cba82eeee9}
+
+
+Definition at line 19 of file civil.\-m.
+
+\index{civil.\-m@{civil.\-m}!t3@{t3}}
+\index{t3@{t3}!civil.m@{civil.\-m}}
+\subsubsection[{t3}]{\setlength{\rightskip}{0pt plus 5cm}case I\-I\-I t3 = 0}\label{civil_8m_a80d62394ff82e3ae283e9113bca340a2}
+
+
+Definition at line 19 of file civil.\-m.
+
+\index{civil.\-m@{civil.\-m}!t4@{t4}}
+\index{t4@{t4}!civil.m@{civil.\-m}}
+\subsubsection[{t4}]{\setlength{\rightskip}{0pt plus 5cm}t4 = 0}\label{civil_8m_ae95ab11d59379638967673bd74654b2a}
+
+
+Definition at line 19 of file civil.\-m.
+
+\index{civil.\-m@{civil.\-m}!Type\-\_\-of\-\_\-soil@{Type\-\_\-of\-\_\-soil}}
+\index{Type\-\_\-of\-\_\-soil@{Type\-\_\-of\-\_\-soil}!civil.m@{civil.\-m}}
+\subsubsection[{Type\-\_\-of\-\_\-soil}]{\setlength{\rightskip}{0pt plus 5cm}calculate global stiffness matrix {\bf clc} {\bf clear} load input mat Soil\-\_\-type Type\-\_\-of\-\_\-soil = ''}\label{civil_8m_ac99038f2b9e5cc7205903d742faffd30}
+
+
+Definition at line 9 of file civil.\-m.
+
